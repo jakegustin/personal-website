@@ -4,7 +4,7 @@
             <a href="#/" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Home</a>
             <a href="#/about" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">About</a>
             <a href="#/projects" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Projects</a>
-            <h1>Resume</h1>
+            <a href="/Jake Gustin - Resume - CS.pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Resume</a>
             <a href="#/contact" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Contact</a>
             <!--TODO: Make dark mode
             <button class="absolute right-6 top-6 bg-white rounded-full w-12 h-12 overflow-hidden">
