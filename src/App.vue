@@ -1,27 +1,38 @@
 <script>
-import DesktopNavbar from "./components/DesktopNavbar.vue"
-import BigInfo from "./components/BigInfo.vue"
-import Hero from "./components/Hero.vue"
-import ProjectOverview from "./components/ProjectOverview.vue";
-import EmploymentHist from "./components/EmploymentHist.vue";
+import Home from "./Home.vue";
+import About from "./About.vue";
+import Projects from "./Projects.vue";
+import Contact from "./Contact.vue";
+import Unknown from "./Unknown.vue";
+
+const routes = {
+  '/': Home,
+  '/about': About,
+  '/projects': Projects,
+  '/contact': Contact,
+}
 
 export default {
-    components: {
-        DesktopNavbar,
-        BigInfo,
-        Hero,
-        ProjectOverview,
-        EmploymentHist
+    data() {
+      return {
+        currentPath: window.location.hash
+      }
+    },
+    computed: {
+      currentView() {
+        return routes[this.currentPath.slice(1) || '/'] || Unknown
+      }
+    },
+    mounted() {
+      window.addEventListener('hashchange', () => {
+        this.currentPath = window.location.hash
+      })
     }
 }
 </script>
 
 <template>
   <div class="bg-slate-200">
-    <DesktopNavbar/>
-    <!--<BigInfo/>-->
-    <Hero/>
-    <EmploymentHist/>
-    <ProjectOverview/>
+    <component :is="currentView"/>
   </div>
 </template>
