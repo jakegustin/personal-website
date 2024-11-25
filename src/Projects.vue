@@ -9,7 +9,5 @@ export default {
 </script>
 
 <template>
-  <div class="bg-slate-200">
-    <DesktopNavbar/>
-  </div>
+  <h1>PROJECTS</h1>
 </template>

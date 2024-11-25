@@ -7,7 +7,7 @@
         -->
         <div class="w-4/5 flex flex-col justify-center gap-y-10 py-10" id="longInfo">
             <div class="flex flex-col gap-y-3">
-                <h1 class="text-8xl font-sans font-bold text-center">Where Is <span class="text-blue-800">My Mind?</span></h1>
+                <h1 class="text-8xl font-sans font-bold text-center">Where Is <span class="text-blue-800 font-extrabold">My Mind?</span></h1>
                 <h2 class="text-3xl font-sans font-semibold text-center">(A little bit about me)</h2>
             </div>
             <div class="flex flex-col gap-y-20 ">
