@@ -1,24 +1,7 @@
 <script>
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import Projects from "./views/Projects.vue";
-import Contact from "./views/Contact.vue";
-import Unknown from "./views/Unknown.vue";
-import LapSim from "./views/LapSim.vue";
-import Portfolio from "./views/Portfolio.vue";
-import Jade from "./views/Jade.vue";
-
 import DesktopNavbar from "./components/DesktopNavbar.vue";
-
-const routes = {
-  '/': Home,
-  '/about': About,
-  '/projects': Projects,
-  '/contact': Contact,
-  '/projects/lapsim': LapSim,
-  '/projects/portfolio': Portfolio,
-  '/projects/jade': Jade
-}
+import Unknown from "./views/Unknown.vue";
+import { RouterView } from "vue-router";
 
 export default {
     data() {
@@ -45,6 +28,6 @@ export default {
 <template>
   <div class="bg-slate-200">
     <DesktopNavbar/>
-    <component :is="currentView"/>
+    <RouterView />
   </div>
 </template>
