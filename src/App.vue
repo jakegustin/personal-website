@@ -1,9 +1,12 @@
 <script>
-import Home from "./Home.vue";
-import About from "./About.vue";
-import Projects from "./Projects.vue";
-import Contact from "./Contact.vue";
-import Unknown from "./Unknown.vue";
+import Home from "./views/Home.vue";
+import About from "./views/About.vue";
+import Projects from "./views/Projects.vue";
+import Contact from "./views/Contact.vue";
+import Unknown from "./views/Unknown.vue";
+import LapSim from "./views/LapSim.vue";
+import Portfolio from "./views/Portfolio.vue";
+import Jade from "./views/Jade.vue";
 
 import DesktopNavbar from "./components/DesktopNavbar.vue";
 
@@ -12,6 +15,9 @@ const routes = {
   '/about': About,
   '/projects': Projects,
   '/contact': Contact,
+  '/projects/lapsim': LapSim,
+  '/projects/portfolio': Portfolio,
+  '/projects/jade': Jade
 }
 
 export default {

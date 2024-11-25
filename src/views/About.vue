@@ -1,5 +1,5 @@
 <script>
-import WhoAmI from "./components/About/WhoAmI.vue";
+import WhoAmI from "../components/About/WhoAmI.vue";
 
 export default {
     components: {
