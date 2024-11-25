@@ -1,6 +1,6 @@
 <template>
     <div class="sticky top-0">
-        <div class="flex flex-row justify-center content-center p-8 gap-x-5 md:gap-x-10 lg:gap-x-20 font-sans text-2xl bg-blue-800 text-slate-100">
+        <div class="flex flex-row justify-center p-8 gap-x-5 md:gap-x-10 lg:gap-x-20 font-sans text-2xl bg-blue-800 text-slate-100">
             <a href="#/" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Home</a>
             <a href="#/about" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">About</a>
             <a href="#/projects" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Projects</a>
@@ -12,6 +12,6 @@
             </button>
             -->
         </div>
-        <hr class="border-slate-900 flex w-full pb-5"/>
+        <hr class="border-slate-900 border-2 flex w-full"/>
     </div>
 </template>

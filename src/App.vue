@@ -5,6 +5,8 @@ import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
 import Unknown from "./Unknown.vue";
 
+import DesktopNavbar from "./components/DesktopNavbar.vue";
+
 const routes = {
   '/': Home,
   '/about': About,
@@ -27,12 +29,16 @@ export default {
       window.addEventListener('hashchange', () => {
         this.currentPath = window.location.hash
       })
+    },
+    components: {
+      DesktopNavbar
     }
 }
 </script>
 
 <template>
   <div class="bg-slate-200">
+    <DesktopNavbar/>
     <component :is="currentView"/>
   </div>
 </template>

@@ -1,15 +1,13 @@
 <script>
-import DesktopNavbar from "./components/DesktopNavbar.vue"
+import WhoAmI from "./components/About/WhoAmI.vue";
 
 export default {
     components: {
-        DesktopNavbar
+        WhoAmI
     }
 }
 </script>
 
 <template>
-  <div class="bg-slate-200">
-    <DesktopNavbar/>
-  </div>
+  <WhoAmI/>
 </template>
