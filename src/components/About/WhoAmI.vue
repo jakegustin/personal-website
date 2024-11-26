@@ -15,7 +15,7 @@ import { RouterLink } from 'vue-router';
                 <h2 class="text-3xl font-sans font-semibold text-center">(A little bit about me)</h2>
             </div>
             <div class="flex flex-col gap-y-20 ">
-                <div class="flex flex-col gap-y-3 text-md">
+                <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-800">Educational Background</h2>
                     <p >I first enrolled at Boston University (BU) as a Film & Television student 
                         with the aim of being involved in film production after graduation. I took a variety of classes within the department, 
@@ -28,14 +28,14 @@ import { RouterLink } from 'vue-router';
                     <p>
                         I tried out some introductory computer science courses and immediately felt at home.
                         It didn't take long for me to want to push my limits and add a computer science major to my program as I continued to perform well in 
-                        upper-level classes from both areas of study. In time, I discovered my passion for computer science - working with distributed
-                        and cloud systems. I've been able to contribute in a teaching capacity for an undergraduate systems course for two years, serving in a leading role as a teaching assistant
-                        for one year, to support other future leaders in learning about this prominent research area. Furthermore, I've also had
-                        the opportunity to serve as a research assistant, conducting experiments to optimize energy consumption in distributed computing 
-                        workloads, particularly with Apache Flink.
+                        upper-level classes from both areas of study. I've been able to contribute in a teaching capacity for an undergraduate systems 
+                        course for two years, serving in a leading role as a teaching assistant for one year, to support other future leaders 
+                        who were just starting their journey. In time, I discovered my passion for computer science - working with distributed
+                        and cloud systems. I've had the opportunity to further explore this interest as a research assistant, 
+                        conducting experiments to optimize energy consumption in distributed computing workloads, particularly with Apache Flink.
                     </p>
                 </div>
-                <div class="flex flex-col gap-y-3 text-md">
+                <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-800">Professional Background</h2>
                     <p >
                         My first experience working professionally was as a software engineering intern at Nuance Communications (now Microsoft).
@@ -49,15 +49,16 @@ import { RouterLink } from 'vue-router';
                         In addition to industry projects, I also had the opportunity to contribute to projects at my alma mater. After graduation, 
                         I took up a courseware development role to create and refine software for the same undergraduate course I've held a teaching role in to 
                         improve the quality of educational materials used in the course for future students. This role led to the creation of the 
-                        <span class="font-bold">LapSim</span> project and new contributions to the <span class="font-bold">Jade</span> project, allowing 
-                        students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs.
+                        <RouterLink to="/projects/lapsim"><span class="font-bold text-blue-800">LapSim</span></RouterLink> project and 
+                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-blue-800">Jade</span></RouterLink>
+                         project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs.
                     </p>
                     <br/>
                     <p>
                         While my career as a professional has only just begun, I'm always looking forward to my <span class="font-bold">next big opportunity.</span>
                     </p>
                 </div>
-                <div class="flex flex-col gap-y-3 text-md">
+                <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-800">Personal Interests</h2>
                     <p>
                         Of course, I don't believe in the philosophy of "all work and no play" - life is all about finding balance!

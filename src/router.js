@@ -7,6 +7,7 @@ import Contact from "./views/Contact.vue";
 import LapSim from "./views/LapSim.vue";
 import Portfolio from "./views/Portfolio.vue";
 import Jade from "./views/Jade.vue";
+import Unknown from "./views/Unknown.vue";
 
 const routes = [
     {
@@ -43,13 +44,21 @@ const routes = [
         path: '/projects/jade',
         name: 'jade',
         component: Jade
-    }
+    },
+    { 
+        path: '/:pathMatch(.*)*', 
+        name: 'NotFound', 
+        component: Unknown }
 ];
 
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+})
+
+router.beforeEach(() => {
+    window.scrollTo(0, 0);
 })
 
 export default router

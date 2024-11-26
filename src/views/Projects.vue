@@ -1,3 +1,16 @@
+<script>
+import ProjectsIntro from "../components/Projects/ProjectsIntro.vue"
+import ProjectCards from "../components/Projects/ProjectCards.vue"
+
+export default {
+    components: {
+        ProjectsIntro,
+        ProjectCards
+    }
+}
+</script>
+
 <template>
-  <h1>PROJECTS</h1>
+  <ProjectsIntro/>
+  <ProjectCards/>
 </template>

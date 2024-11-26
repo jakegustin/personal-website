@@ -32,7 +32,7 @@ export default {
                 </div>
             </div>
             
-            <a to="/Jake Gustin - Resume - CS.pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Resume</a>
+            <a href="/Jake Gustin - Resume - CS.pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Resume</a>
             <RouterLink to="/contact" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Contact</RouterLink>
             <!--TODO: Make dark mode
             <button class="absolute right-6 top-6 bg-white rounded-full w-12 h-12 overflow-hidden">
