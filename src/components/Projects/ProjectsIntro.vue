@@ -4,7 +4,7 @@
             <div class="flex flex-col gap-y-3">
                 <h1 class="text-8xl font-sans font-bold text-center">Featured <span class="text-blue-800 font-extrabold">Projects</span></h1>
             </div>
-            <p class="text-xl max-w-prose">These are the projects I have most recently worked on. Feel free to browse through and explore any 
+            <p class="text-xl max-w-prose text-center">These are the projects I have most recently worked on. Feel free to browse through and explore any 
                 projects that intrigue you!
             </p>
         </div>

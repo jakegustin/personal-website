@@ -38,35 +38,57 @@ export default {
                     <ul class="flex flex-wrap gap-x-10 list-disc text-xl">
                       <li>C</li>
                       <li>Bash</li>
-                      <li>Python (Autograder)</li>
+                      <li>Python</li>
                     </ul>
                   </div>
                   <p class="pt-5">
-                      Imagine the following scenario: your employment in a temporary position comes to an end within a week, and you're tasked with creating a bonus assignment 
-                      to test students on their newfound knowledge of the C programming language along with all of the other principles taught throughout the semester.
+                      Imagine this: you're wrapping up in a temporary position, and you've been tasked with creating a bonus assignment in one week that 
+                      tests over 300 students on their newfound knowledge of the C programming language, along with all of the other principles taught throughout the semester.
                       What do you do?
                   </p>
                   <br/>
                   <p>
-                      The answer is simple enough: <span class="font-bold">just go for it!</span>
+                      The answer is simple enough: <span class="font-bold">embrace the challenge!</span>
                   </p>
                   <br/>
-                  <p>
-                      The LapSim project features a virtual 24-car grid of similarly rated drivers and vehicles racing along a predefined circuit
-                      consisting of low, medium, and high speed corners along with some straights. Various metrics often found in real-world motorsports are
-                      simulated in this program, including lap times, sector times, fuel usage, tire wear, and engine mode. In addition, pit stops add another 
-                      factor of complexity into the simulation along with dynamic precipitation levels and vehicle reliability.
-                  </p>
-                  <br/>
+                  <h3 class="text-2xl font-semibold">Core Components</h3>
+                  <ul class="list-disc">
+                    <li class="pb-5 text-xl font-medium">Generating Simulations
+                      <p class="text-lg font-normal">
+                        Written in the C language, this "client" program simulates data for 24 cars along a circuit of varying 
+                        corners and straights. Various metrics often found in real-world motorsports are simulated in this program, including lap times,
+                        sector times, fuel usage, tire wear, and engine mode. Pit stops, dynamic weather, and vehicle reliability add additional complexity into the simulation,
+                        Randomness ensures a unique result every time, with the option to use randomization seeds for consistency.
+                      </p>
+                    </li>
+                    <li class="pb-5 text-xl font-medium">Simulation Analysis Tool
+                      <p class="text-lg font-normal">
+                        Also written in the C language, this "server" program ingests data from the client to be analyzed. 
+                        Examples of the types of insights that can be gathered include best times, average times, and a detailed lap-by-lap analysis.
+                        Users can interact with this program through a simplified terminal interface.
+                      </p>
+                    </li>
+                    <li class="pb-5 text-xl font-medium">Testing Procedures
+                      <p class="text-lg font-normal">
+                        The Bash scripting language was used to automate the 
+                        testing processes to ensure student correctness, while Python was used to ensure compatibility with the course's existing 
+                        grading software.
+                      </p>
+                    </li>
+                  </ul>
                   <p class="pb-5">
                     While I was able to build a strong foundation for this project, I'm looking forward to developing a proper GUI and adding more variables
                     into the simulation should time allow.
                   </p>
+                  <br/>
+                  <div class="flex flex-wrap items-center gap-x-10 gap-y-5">
+                    <p class="font-bold text-2xl">Source Code: </p>
+                    <button disabled='true' class="bg-slate-300 border-slate-500 border-2 rounded-2xl w-64 h-16 text-black">Available Upon Request</button>
+                  </div>
+                  <br/>
                   <hr class="border-black"/>
-                  <p class="pt-5"><span class="font-bold">Fun Fact! </span>The car featured in the card for the LapSim project on the Home page and the Projects page is 
-                    the 2015 Koenigsegg Agera RS. As it turns out, "Agera" is the Swedish verb that means <span class="font-bold">"to act."</span> It also
-                    happens to be one of the fastest production vehicles of its time, with a recorded speed of 277.87 miles per hour (approximately 447 kilometers
-                    per hour).
+                  <p class="pt-5"><span class="font-bold">Fun Fact! </span>The blue car featured in the LapSim project card is 
+                    the 2015 Koenigsegg Agera RS. "Agera" is the Swedish verb meaning <span class="font-bold">"to act."</span>
                   </p>
                 </div>
               </div>
