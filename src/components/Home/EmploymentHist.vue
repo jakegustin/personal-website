@@ -5,15 +5,15 @@
             <ul class="list-none flex flex-col items-center gap-y-3">
                 <li class="text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-solid fa-graduation-cap text-5xl w-24 text-center"></i>
-                    <span class="text-left">Boston University</span>
+                    <span class="text-left pl-5">Boston University</span>
                 </li>
                 <li class="text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-brands fa-microsoft text-5xl w-24 text-center"></i>
-                    <span class="text-left">Microsoft (formerly Nuance Communications)</span>
+                    <span class="text-left pl-5">Microsoft (formerly Nuance Communications)</span>
                 </li>
                 <li class="text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-solid fa-question text-5xl w-24 text-center"></i>
-                    <span class="text-left">Hiring? Your organization could be <span class="text-teal-400 font-extrabold">next!</span></span>
+                    <span class="text-left pl-5">Hiring? Your organization could be <span class="text-teal-400 font-extrabold">next!</span></span>
                 </li>
             </ul>
         </div>

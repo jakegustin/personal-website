@@ -12,6 +12,8 @@ export default {
 <template>
   <div class="bg-slate-200 min-h-screen">
     <DesktopNavbar/>
-    <RouterView />
+    <main class="pt-16">
+      <RouterView />
+    </main>
   </div>
 </template>
