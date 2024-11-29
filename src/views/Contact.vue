@@ -7,17 +7,17 @@ import { RouterLink } from 'vue-router';
     <h1 class="text-6xl md:text-8xl font-sans font-bold text-center pb-10">Contact <span class="text-blue-800 font-extrabold">Me</span></h1>
     <p class="text-lg md:text-2xl text-center pb-20">I'm always looking forward to my next opportunity and look forward to hearing from you! Here's where you can find or reach out to me: </p>
     <div class="flex justify-center bg-blue-800 text-white rounded-2xl py-5 max-w-3xl w-full mx-auto">
-      <ul class="flex flex-col list-none items-center gap-y-5 text-xl sm:text-3xl">
+      <ul class="flex flex-col list-none items-center gap-y-5 text-lg sm:text-3xl">
         <li class="flex flex-row items-center w-full">
-            <i class="fa-solid fa-envelope text-4xl w-24 text-center flex-shrink-0"></i>
+            <i class="fa-solid fa-envelope text-3xl w-16 sm:text-4xl sm:w-24 text-center flex-shrink-0"></i>
             <a href="mailto:jakegust2020@gmail.com" class="text-teal-500 hover:underline text-left">jakegust2020@gmail.com</a>
         </li>
         <li class="flex flex-row items-center  w-full">
-            <i class="fa-brands fa-github text-4xl w-24 text-center flex-shrink-0"></i>
+            <i class="fa-brands fa-github text-3xl w-16 sm:text-4xl sm:w-24 text-center flex-shrink-0"></i>
             <a href="https://www.github.com/jakegustin" class="text-teal-500 hover:underline text-left">jakegustin</a>
         </li>
         <li class="flex flex-row items-center w-full">
-            <i class="fa-brands fa-linkedin text-4xl w-24 text-center flex-shrink-0"></i>
+            <i class="fa-brands fa-linkedin text-3xl w-16 sm:text-4xl sm:w-24 text-center flex-shrink-0"></i>
             <a href="https://www.linkedin.com/in/gustinj" class="text-teal-500 hover:underline text-left">gustinj</a>
         </li>
       </ul>

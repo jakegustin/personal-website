@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-<nav class="sticky w-full top-0 z-50 overflow-visible">
+<nav class="fixed sm:sticky w-full top-0 z-50 overflow-visible">
     <div>
         <div class="flex flex-row justify-center py-5 gap-x-5 md:gap-x-10 lg:gap-x-20 font-sans text-2xl bg-blue-800 text-slate-100">
             <RouterLink to="/" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Home</RouterLink>
