@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <div class="flex flex-col items-center gap-y-10 pb-24">
-        <div class="flex flex-col sm:flex-row bg-white shadow-xl border-2 border-slate-400 w-3/4 sm:h-80 h-fit rounded-2xl overflow-hidden place-items-center">
+        <div class="flex flex-col sm:flex-row bg-white dark:bg-slate-700 shadow-xl border-2 border-slate-400 w-3/4 sm:h-80 h-fit rounded-2xl overflow-hidden place-items-center">
             <img src="../../assets/lapsimcardimg.png" class="flex sm:w-1/2 md:w1-1/3 lg:w-1/4 w-full sm:h-full h-64 object-cover" />
             <div class="flex flex-col justify-between sm:w-3/4 w-full sm:h-full h-3/4 pt-5 pb-5 px-3 text-center">
                 <h2 class="font-sans text-xl md:text-2xl lg:text-3xl font-bold">LapSim</h2>
@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router';
                 </RouterLink>
             </div>
         </div>
-        <div class="flex flex-col sm:flex-row bg-white shadow-xl border-2 border-slate-400 w-3/4 sm:h-80 h-fit rounded-2xl overflow-hidden place-items-center">
+        <div class="flex flex-col sm:flex-row bg-white dark:bg-slate-700 shadow-xl border-2 border-slate-400 w-3/4 sm:h-80 h-fit rounded-2xl overflow-hidden place-items-center">
             <img src="../../assets/portfoliocardimg.jpg" class="flex sm:w-1/2 md:w1-1/3 lg:w-1/4 w-full sm:h-full h-64 object-cover" />
             <div class="flex flex-col justify-between sm:w-3/4 w-full sm:h-full h-3/4 pt-5 pb-5 px-3 text-center">
                 <h2 class="font-sans text-xl md:text-2xl lg:text-3xl font-bold">Portfolio</h2>
@@ -30,7 +30,7 @@ import { RouterLink } from 'vue-router';
                 </RouterLink>
             </div>
         </div>
-        <div class="flex flex-col sm:flex-row bg-white shadow-xl border-2 border-slate-400 w-3/4 sm:h-80 h-fit rounded-2xl overflow-hidden place-items-center">
+        <div class="flex flex-col sm:flex-row bg-white dark:bg-slate-700 shadow-xl border-2 border-slate-400 w-3/4 sm:h-80 h-fit rounded-2xl overflow-hidden place-items-center">
             <img src="../../assets/jadecardimg.jpg" class="flex sm:w-1/2 md:w1-1/3 lg:w-1/4 w-full sm:h-full h-64 object-cover" />
             <div class="flex flex-col justify-between sm:w-3/4 w-full sm:h-full h-3/4 pt-5 pb-5 px-3 text-center">
                 <h2 class="font-sans text-xl md:text-2xl lg:text-3xl font-bold">Jade</h2>

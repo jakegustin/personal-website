@@ -41,7 +41,7 @@ export default {
                             I'm
                         </span>
                         <span :class="firstVisit && !visibleTitle[1] ? 'opacity-0' : 'opacity-100'" 
-                                class="text-7xl sm:text-8xl font-sans font-extrabold transition-opacity duration-1000 ease-in-out text-blue-800">
+                                class="text-7xl sm:text-8xl font-sans font-extrabold transition-opacity duration-1000 ease-in-out text-blue-800 dark:text-blue-700">
                             Jake
                         </span>
                         </h1>
@@ -52,7 +52,7 @@ export default {
             <div :class="firstVisit && !visibleTitle[3] ? 'opacity-0' : 'opacity-100'" class="flex flex-col items-center gap-y-10 transition-opacity duration-1000 ease-in-out">
                 <p class="text-xl max-w-prose">I am a recent graduate of Boston University's Dual Degree program, majoring in Computer Science along with Film & Television. I've leveraged my unique skillset to develop a variety of high quality software products, ranging from interactive user experiences to efficient, low-level systems code. I am currently seeking admission into a Master's of Computer Science program for the upcoming 2025-2026 academic year.</p>
                 <div class="w-100">
-                    <button :disabled="firstVisit && !visibleTitle[3]" @click=openResume() class="w-60 h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">See My Resume</button> 
+                    <button :disabled="firstVisit && !visibleTitle[3]" @click=openResume() class="w-60 h-20 bg-gray-800 text-white text-xl dark:border-slate-400 dark:border-2 rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">See My Resume</button> 
                 </div>
             </div>
         </div>

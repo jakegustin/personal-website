@@ -6,6 +6,20 @@ export default {
         return {
             projectDropdownState: false
         }
+    },
+    methods: {
+        switchTheme() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            if (!('theme' in localStorage)) {
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    localStorage.theme = 'light'
+                } else {
+                    localStorage.theme = 'dark'
+                }
+            } else {
+                localStorage.theme =  isDark ? 'dark' : 'light'
+            }
+        }
     }
 }
 </script>
@@ -39,7 +53,11 @@ export default {
                 <i class="fa-solid fa-moon text-black hover:text-yellow-500 transition-colors duration-200 ease-in-out"></i>
             </button>
             -->
+            <button class="absolute top=6 right-10">
+                <i @click="switchTheme" class="fa-solid fa-circle-half-stroke"></i>
+            </button>
         </div>
+        
         <hr class="border-slate-900 border-2 flex w-full"/>
     </div>
 </nav>

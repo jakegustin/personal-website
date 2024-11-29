@@ -32,7 +32,7 @@ export default {
             <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
               <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
-                  <h2 class="text-4xl font-bold">Diving Into The <span :class="visibleHeader ? 'opacity-100' : 'opacity-0'" class="transition-opacity duration-1000 ease-in-out text-blue-800 font-extrabold">Unknown.</span></h2>
+                  <h2 class="text-4xl font-bold">Diving Into The <span :class="visibleHeader ? 'opacity-100' : 'opacity-0'" class="transition-opacity duration-1000 ease-in-out text-blue-800 dark:text-blue-700 font-extrabold">Unknown.</span></h2>
                   <div class="flex flex-row gap-x-10 pt-5 items-center justify-center">
                     <h3 class="text-2xl font-bold ">Languages Used: </h3>
                     <ul class="flex flex-wrap gap-x-10 list-disc text-xl">
@@ -82,7 +82,7 @@ export default {
                   <br/>
                   <div class="flex flex-wrap items-center gap-x-10 gap-y-5">
                     <p class="font-bold text-2xl">Source Code: </p>
-                    <button @click="goToRepo" class="w-60 h-16 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">View Repository</button>
+                    <button @click="goToRepo" class="w-60 h-16 bg-gray-800 text-white dark:bg-slate-700 dark:border-2 text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">View Repository</button>
                   </div>
                   <br/>
                   <hr class="border-black"/>
@@ -98,7 +98,7 @@ export default {
             </div>    
         </div>
     </div>
-    <div class="flex flex-col justify-center items-center bg-blue-800 font-sans gap-y-10 py-10">
+    <div class="flex flex-col justify-center items-center bg-blue-800 dark:bg-blue-900 font-sans gap-y-10 py-10">
         <h3 class="text-3xl font-bold text-white">Want to learn more?</h3>
         <RouterLink to="/contact">
             <button class="w-60 h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Reach Out!</button>

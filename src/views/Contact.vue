@@ -22,7 +22,7 @@ import { RouterLink } from 'vue-router';
         </li>
       </ul>
     </div>
-    <p class="text-xl text-center justify-center pt-20 w-full sm:w-1/2 mx-auto">
+    <p class="text-lg md:text-xl text-center justify-center pt-20 w-full sm:w-1/2 mx-auto">
       <span class="font-bold">For all business/hiring inquiries: </span>Please email me with  
       an anticipated salary range and description of the role you are seeking to fill in your initial message to ensure a quicker response.
     </p>
