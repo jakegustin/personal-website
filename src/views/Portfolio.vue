@@ -21,16 +21,16 @@ export default {
 </script>
 
 <template>
-    <div class="flex flex-row justify-center gap-x-24 pb-16">
+    <div class="flex flex-row justify-center lg:gap-x-24 pb-16">
         <!--
         <div class="place-content-start" id="pfp">
             <img src="../assets/testImage.png" class="min-w-96 pb-10"/>
         </div>
         -->
         <div class="flex flex-col justify-center gap-y-10">
-            <h1 class=" bg-[url('../src/assets/portfoliobanner.png')] bg-cover bg-center h-80 text-8xl font-sans font-bold text-center content-center text-white">Portfolio</h1>
-            <div class="flex flex-row gap-x-5 px-24">
-              <div class="flex flex-col gap-y-20 w-4/5 px-10">
+            <h1 class=" bg-[url('../src/assets/portfoliobanner.png')] bg-cover bg-center h-80 text-6xl sm:text-8xl font-sans font-bold text-center content-center text-white">Portfolio</h1>
+            <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
+              <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
                   <h2 class="text-4xl font-bold">Diving Into The <span :class="visibleHeader ? 'opacity-100' : 'opacity-0'" class="transition-opacity duration-1000 ease-in-out text-blue-800 font-extrabold">Unknown.</span></h2>
                   <div class="flex flex-row gap-x-10 pt-5 items-center justify-center">
@@ -74,7 +74,7 @@ export default {
                       </p>
                     </li>
                   </ul>
-                  <p class="pb-5">
+                  <p>
                     This website is an ongoing work-in-progress, and I look forward to continually sharing
                      new skills and experiences while also testing out some 
                     new frameworks and technologies here. Be sure to check back on occasion for any updates!
@@ -86,14 +86,14 @@ export default {
                   </div>
                   <br/>
                   <hr class="border-black"/>
-                  <p class="pt-5"><span class="font-bold">Fun Fact! </span>There is a small easter egg on this website.
+                  <p class="pt-5 pb-5"><span class="font-bold">Fun Fact! </span>There is a small easter egg on this website.
                     For those familiar with the Konami Code, try it out on this website!
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-y-20 items-center">
-                <img src="/src/assets/gitlogimg.png">
-                <img src="/src/assets/npmbuildimg.png">
+              <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">
+                <img src="/src/assets/gitlogimg.png" class="w-11/12">
+                <img src="/src/assets/npmbuildimg.png" class="w-11/12">
               </div>
             </div>    
         </div>

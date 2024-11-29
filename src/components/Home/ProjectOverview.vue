@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <h2 class="flex text-4xl font-bold place-content-center pt-16 pb-5">Check Out My Featured Projects!</h2>
+    <h2 class="flex text-4xl font-bold place-content-center text-center pt-16 pb-5">Check Out My Featured Projects!</h2>
     <div id="projectOverviewContainer" class="flex flex-wrap place-content-center gap-x-10 gap-y-10 pb-24">
         <RouterLink to="/projects/lapsim">
             <div id="projectLapSimContainer" class="flex flex-col bg-white shadow-xl border-2 border-slate-400 w-60 h-80 rounded-2xl overflow-hidden place-items-center hover:scale-110 transition-transform duration-100">

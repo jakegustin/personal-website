@@ -18,16 +18,16 @@ export default {
 </script>
 
 <template>
-    <div class="flex flex-row justify-center gap-x-24 pb-16">
+    <div class="flex flex-row justify-center lg:gap-x-24 pb-16">
         <!--
         <div class="place-content-start" id="pfp">
             <img src="../assets/testImage.png" class="min-w-96 pb-10"/>
         </div>
         -->
         <div class="flex flex-col justify-center gap-y-10">
-            <h1 class=" bg-[url('../src/assets/lapsimheader.png')] bg-cover bg-center h-80 text-8xl font-sans font-bold text-center content-center text-white">LapSim</h1>
-            <div class="flex flex-row gap-x-5 px-24">
-              <div class="flex flex-col gap-y-20 w-4/5 px-10">
+            <h1 class=" bg-[url('../src/assets/lapsimheader.png')] bg-cover bg-center h-80 text-6xl sm:text-8xl font-sans font-bold text-center content-center text-white">LapSim</h1>
+            <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
+              <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
                   <h2 :class="visibleHeader[0] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">300+ Students,</h2>
                   <h2 :class="visibleHeader[1] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">7 Days,</h2>
@@ -87,13 +87,13 @@ export default {
                   </div>
                   <br/>
                   <hr class="border-black"/>
-                  <p class="pt-5"><span class="font-bold">Fun Fact! </span>The blue car featured in the LapSim project card is 
+                  <p class="pt-5 pb-5"><span class="font-bold">Fun Fact! </span>The blue car featured in the LapSim project card is 
                     the 2015 Koenigsegg Agera RS. "Agera" is the Swedish verb meaning <span class="font-bold">"to act."</span>
                   </p>
                 </div>
               </div>
-              <div class="flex flex-col gap-y-20 items-center">
-                <img src="/src/assets/lapsimoutput2.png" class="max-w-96">
+              <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">
+                <img src="/src/assets/lapsimoutput2.png" class="max-w-84 sm:max-w-96">
                 <img src="/src/assets/lapsimoutput.png">
               </div>
             </div>    

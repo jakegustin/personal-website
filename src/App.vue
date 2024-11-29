@@ -10,10 +10,8 @@ export default {
 </script>
 
 <template>
-  <div class="bg-slate-200 min-h-screen">
+  <div class="bg-slate-200 min-h-screen relative">
     <DesktopNavbar/>
-    <main class="pt-16">
-      <RouterView />
-    </main>
+    <RouterView />
   </div>
 </template>

@@ -3,16 +3,16 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <div class="flex flex-row justify-center gap-x-24 px-24 pt-10 pb-16">
+    <div class="flex flex-row justify-center px-10 pt-10 pb-16">
         <!--
         <div class="place-content-start" id="pfp">
             <img src="../assets/testImage.png" class="min-w-96 pb-10"/>
         </div>
         -->
-        <div class="w-4/5 flex flex-col justify-center gap-y-10 py-10" id="longInfo">
+        <div class="w-full md:w-4/5 flex flex-col justify-center gap-y-10 py-10" id="longInfo">
             <div class="flex flex-col gap-y-3">
-                <h1 class="text-8xl font-sans font-bold text-center">Where Is <span class="text-blue-800 font-extrabold">My Mind?</span></h1>
-                <h2 class="text-3xl font-sans font-semibold text-center">(A little bit about me)</h2>
+                <h1 class="text-6xl md:text-8xl font-sans font-bold text-center">Where Is <span class="text-blue-800 font-extrabold">My Mind?</span></h1>
+                <h2 class="text-2xl md:text-3xl font-sans font-semibold text-center">(A little bit about me)</h2>
             </div>
             <div class="flex flex-col gap-y-20 ">
                 <div class="flex flex-col gap-y-3 text-lg">
