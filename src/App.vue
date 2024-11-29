@@ -1,17 +1,20 @@
 <script>
 import DesktopNavbar from "./components/DesktopNavbar.vue";
+import MobileNavbar from "./components/MobileNavbar.vue";
 import { RouterView } from "vue-router";
 
 export default {
     components: {
-      DesktopNavbar
+      DesktopNavbar,
+      MobileNavbar
     }
 }
 </script>
 
 <template>
-  <div class="bg-slate-200 dark:bg-slate-900 text-black dark:text-white min-h-screen relative pt-16 sm:pt-0">
-    <DesktopNavbar/>
+  <div class="bg-slate-200 dark:bg-slate-800 text-black dark:text-white min-h-screen relative pt-16 sm:pt-0">
+    <DesktopNavbar class="hidden md:block"/>
+    <MobileNavbar class="md:hidden"/>
     <RouterView />
   </div>
 </template>

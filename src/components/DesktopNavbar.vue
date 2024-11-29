@@ -4,7 +4,13 @@ import { RouterLink } from 'vue-router';
 export default {
     data() {
         return {
-            projectDropdownState: false
+            projectDropdownState: false,
+            isDark: localStorage.theme === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches,
+        }
+    },
+    computed: {
+        darkModeIcon() {
+            return this.isDark ? 'fa-moon' : 'fa-sun'
         }
     },
     methods: {
@@ -19,6 +25,7 @@ export default {
             } else {
                 localStorage.theme =  isDark ? 'dark' : 'light'
             }
+            this.isDark = !this.isDark
         }
     }
 }
@@ -54,7 +61,7 @@ export default {
             </button>
             -->
             <button class="absolute top=6 right-10">
-                <i @click="switchTheme" class="fa-solid fa-circle-half-stroke"></i>
+                <i @click="switchTheme" :class="darkModeIcon" class="fa-solid text-white"></i>
             </button>
         </div>
         
