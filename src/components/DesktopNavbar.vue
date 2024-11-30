@@ -5,7 +5,7 @@ export default {
     data() {
         return {
             projectDropdownState: false,
-            isDark: localStorage.theme === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches,
+            isDark: localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches),
         }
     },
     computed: {
