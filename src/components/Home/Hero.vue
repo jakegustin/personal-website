@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <div class="flex flex-row justify-center gap-x-24 px-24 md:pt-16 pt-5 pb-16">
+    <div class="flex flex-row justify-center gap-x-24 px-24 pt-16 pb-16">
         <!--
         <div class="place-content-start" id="pfp">
             <img src="../assets/testImage.png" class="min-w-96 pb-10"/>

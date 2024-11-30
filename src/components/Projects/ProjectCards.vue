@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router';
                     reinforcing the fundamentals of a low-level, undergraduate systems course.
                 </p>
                 <RouterLink to="/projects/lapsim">
-                    <button class="w-60 h-16 lg:w-60 lg:h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Explore LapSim</button>
+                    <button class="w-60 h-16 lg:h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Explore LapSim</button>
                 </RouterLink>
             </div>
         </div>
@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router';
                     into making the website you're currently browsing through.
                 </p>
                 <RouterLink to="/projects/portfolio">
-                    <button class="w-60 h-16 lg:w-60 lg:h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Explore Portfolio</button>
+                    <button class="w-60 h-16 lg:h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Explore Portfolio</button>
                 </RouterLink>
             </div>
         </div>
@@ -39,7 +39,7 @@ import { RouterLink } from 'vue-router';
                     them to the inner workings of the processors used by many modern computing devices.
                 </p>
                 <RouterLink to="/projects/jade">
-                    <button class="w-60 h-16 lg:w-60 lg:h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Explore Jade</button>
+                    <button class="w-60 h-16 lg:h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Explore Jade</button>
                 </RouterLink>
             </div>
         </div>

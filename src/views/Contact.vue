@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-<div class="flex flex-col justify-center py-10 px-5">
+<div class="flex flex-col justify-center pt-16 px-5">
     <h1 class="text-6xl md:text-8xl font-sans font-bold text-center pb-10">Contact <span class="text-blue-800 font-extrabold">Me</span></h1>
     <p class="text-lg md:text-2xl text-center pb-20">I'm always looking forward to my next opportunity and look forward to hearing from you! Here's where you can find or reach out to me: </p>
     <div class="flex justify-center bg-blue-800 text-white rounded-2xl py-5 max-w-3xl w-full mx-auto">
