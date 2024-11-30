@@ -1,5 +1,7 @@
 <script>
 import { RouterLink } from 'vue-router';
+import ContactFooter from '../components/ContactFooter.vue';
+import ExternalLinkButton from '../components/ExternalLinkButton.vue';
 
 export default {
     data() {
@@ -16,6 +18,10 @@ export default {
       setTimeout(() => {
         this.visibleHeader = true // Update visibility for each element
       }, 500); // Delay increases for each element (e.g., 0ms, 500ms, 1000ms, etc.)
+    },
+    components: {
+      ContactFooter,
+      ExternalLinkButton
     }
   }
 </script>
@@ -80,7 +86,7 @@ export default {
                   <br/>
                   <div class="flex flex-wrap items-center gap-x-10 gap-y-5 pb-5">
                     <p class="font-bold text-2xl">Source Code: </p>
-                    <button @click="goToRepo" class="w-60 h-16 bg-gray-800 text-white dark:bg-slate-700 dark:border-2 text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">View Repository</button>
+                    <ExternalLinkButton link="https://www.github.com/jakegustin/jade"/>
                   </div>
                   <br/>
                 </div>
@@ -92,10 +98,5 @@ export default {
             </div>    
         </div>
     </div>
-    <div class="flex flex-col justify-center items-center bg-blue-800 dark:bg-blue-900 font-sans gap-y-10 py-10">
-        <h3 class="text-3xl font-bold text-white">Want to learn more?</h3>
-        <RouterLink to="/contact">
-            <button class="w-60 h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Reach Out!</button>
-        </RouterLink>
-    </div>
+    <ContactFooter/>
 </template>

@@ -1,5 +1,6 @@
 <script>
 import { RouterLink } from 'vue-router';
+import ContactFooter from '../components/ContactFooter.vue';
 
 export default {
     data() {
@@ -13,6 +14,9 @@ export default {
         this.visibleHeader[index] = true // Update visibility for each element
       }, index * 1000); // Delay increases for each element (e.g., 0ms, 500ms, 1000ms, etc.)
     });
+    },
+    components: {
+      ContactFooter
     }
   }
 </script>
@@ -99,10 +103,5 @@ export default {
             </div>    
         </div>
     </div>
-    <div class="flex flex-col justify-center items-center bg-blue-800 dark:bg-blue-900 font-sans gap-y-10 py-10">
-        <h3 class="text-3xl font-bold text-white">Want to learn more?</h3>
-        <RouterLink to="/contact">
-            <button class="w-60 h-20 bg-gray-800 text-white text-xl rounded-2xl font-sans hover:scale-110 transition-transform duration-100 shadow-xl">Reach Out!</button>
-        </RouterLink>
-    </div>
+    <ContactFooter/>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-blue-800 dark:bg-blue-900 text-slate-100 py-16 border-black border-y-4 ">
+    <div class="bg-blue-800 dark:bg-blue-900 text-slate-100 py-16 border-black border-y-4 transition-colors duration-300 ease-in-out">
         <h2 class="flex text-4xl font-bold place-content-center text-center py-5 px-5">I've Been Employed at These Organizations</h2>
         <div class="flex justify-center pb-5 rounded-2xl">
             <ul class="list-none flex flex-col px-5 items-center gap-y-3">

@@ -1,16 +1,11 @@
-<script>
+<script setup>
 import ProjectsIntro from "../components/Projects/ProjectsIntro.vue"
 import ProjectCards from "../components/Projects/ProjectCards.vue"
-
-export default {
-    components: {
-        ProjectsIntro,
-        ProjectCards
-    }
-}
+import ContactFooter from "../components/ContactFooter.vue";
 </script>
 
 <template>
   <ProjectsIntro/>
   <ProjectCards/>
+  <ContactFooter/>
 </template>
