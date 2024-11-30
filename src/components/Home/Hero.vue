@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-    <div class="flex lg:flex-row flex-col justify-center items-center gap-x-10 sm:gap-y-0 gap-y-24 px-24 pt-16 pb-16">
+    <div class="flex lg:flex-row flex-col justify-center items-center gap-x-10 sm:gap-y-0 gap-y-24 px-24 pt-16 sm:pb-0 pb-16">
         <!--
         <div class="place-content-start" id="pfp">
             <img src="../assets/testImage.png" class="min-w-96 pb-10"/>
@@ -62,7 +62,7 @@ export default {
             </div>
         </div>
         <div class="flex sm:scale-75">
-            <img src="/src/assets/oilportrait.png" class="bg-blue-800 dark:bg-blue-900 border-4 border-black dark:border-slate-200 rounded-2xl overflow-hidden transition-colors duration-300 ease-in-out"/>
+            <img src="/src/assets/websiteportrait.png" class="bg-blue-800 dark:bg-blue-900 border-4 border-black dark:border-slate-200 rounded-2xl overflow-hidden transition-colors duration-300 ease-in-out"/>
         </div>
     </div>
 </template>
