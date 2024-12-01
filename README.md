@@ -1,5 +1,8 @@
-# Vue 3 + Vite
+# Welcome to My Website!
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This website serves as a personal portfolio of my projects as well as a representation of my prior experiences. This site is an ongoing effort and will be regularly updated! The current iteration was created with Vue.js, Vite.js, and Tailwind CSS. ***All rights reserved.***
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+#### Additional Attributions (to ensure the lawyers are happy)
+
+- Forza Horizon 5 © Microsoft Corporation. LapSim Card Image & LapSim Banner Image was created under Microsoft's "Game Content Usage Rules" using assets from Forza Horizon 5, and it is not endorsed by or affiliated with Microsoft.
+    - (Trust me, I wish I could have seen these cars in action in the real world.)
