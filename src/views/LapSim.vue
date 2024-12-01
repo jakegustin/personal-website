@@ -36,7 +36,7 @@ export default {
                   <h2 :class="visibleHeader[0] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">300+ Students,</h2>
                   <h2 :class="visibleHeader[1] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">7 Days,</h2>
                   <h2 :class="visibleHeader[2] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">1 Project,</h2>
-                  <h2 :class="visibleHeader[3] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-extrabold transition-opacity duration-1000 ease-in-out text-blue-800 dark:text-blue-700">Endless Possibilities.</h2>
+                  <h2 :class="visibleHeader[3] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-extrabold transition-opacity duration-1000 ease-in-out text-blue-700">Endless Possibilities.</h2>
                   <div class="flex flex-row gap-x-10 pt-5 items-center justify-center">
                     <h3 class="text-2xl font-bold ">Languages Used: </h3>
                     <ul class="flex flex-wrap gap-x-10 list-disc text-xl">

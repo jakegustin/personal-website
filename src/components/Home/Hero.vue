@@ -54,8 +54,8 @@ export default {
                                 class="text-7xl sm:text-8xl font-bold transition-opacity duration-1000 ease-in-out">
                             I'm
                         </span>
-                        <span :class="firstVisit && !visibleTitle[1] ? 'opacity-0' : 'opacity-100'" 
-                                class="text-7xl sm:text-8xl font-extrabold transition-opacity duration-1000 ease-in-out text-blue-800 dark:text-blue-700">
+                        <span id="highlightedName" :class="firstVisit && !visibleTitle[1] ? 'opacity-0' : 'opacity-100'" 
+                                class="text-7xl sm:text-8xl font-extrabold text-blue-700 transition-opacity duration-1000 ease-in-out">
                             Jake
                         </span>
                         </h1>

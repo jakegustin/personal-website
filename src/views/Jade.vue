@@ -38,7 +38,7 @@ export default {
             <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
               <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
-                  <h2 class="text-4xl font-bold">Processor Architecture Made <span :class="visibleHeader ? 'opacity-100' : 'opacity-0'" class="transition-opacity duration-1000 ease-in-out text-blue-800 dark:text-blue-700 font-extrabold">Simple.</span></h2>
+                  <h2 class="text-4xl font-bold">Processor Architecture Made <span :class="visibleHeader ? 'opacity-100' : 'opacity-0'" class="transition-opacity duration-1000 ease-in-out text-blue-700 font-extrabold">Simple.</span></h2>
                   <div class="flex flex-row gap-x-10 pt-5 items-center justify-center">
                     <h3 class="text-2xl font-bold ">Languages Used: </h3>
                     <ul class="flex flex-wrap gap-x-10 list-disc text-xl">

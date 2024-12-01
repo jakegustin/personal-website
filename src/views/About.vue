@@ -12,12 +12,12 @@ import ContactFooter from '../components/ContactFooter.vue';
         -->
         <div class="w-full md:w-4/5 flex flex-col justify-center gap-y-10 pb-10">
             <div class="flex flex-col gap-y-3">
-                <h1 class="text-6xl md:text-8xl font-bold text-center">Where Is <span class="text-blue-800 dark:text-blue-700 font-extrabold">My Mind?</span></h1>
+                <h1 class="text-6xl md:text-8xl font-bold text-center">Where Is <span class="text-blue-700 font-extrabold">My Mind?</span></h1>
                 <h2 class="text-2xl md:text-3xl font-semibold text-center">(A little bit about me)</h2>
             </div>
             <div class="flex flex-col gap-y-20 ">
                 <div class="flex flex-col gap-y-3 text-lg">
-                    <h2 class="text-3xl font-bold text-blue-800 dark:text-blue-700">Educational Background</h2>
+                    <h2 class="text-3xl font-bold text-blue-700">Educational Background</h2>
                     <p >I first enrolled at Boston University (BU) as a Film & Television student 
                         with the aim of being involved in film production after graduation. I took a variety of classes within the department, 
                         with topics ranging from screenwriting, film studies, and even TV studio production. I was also selected to be a 
@@ -42,7 +42,7 @@ import ContactFooter from '../components/ContactFooter.vue';
                     </p>
                 </div>
                 <div class="flex flex-col gap-y-3 text-lg">
-                    <h2 class="text-3xl font-bold text-blue-800 dark:text-blue-700">Professional Background</h2>
+                    <h2 class="text-3xl font-bold text-blue-700">Professional Background</h2>
                     <p >
                         My first professional experience was as a software engineering intern at Nuance Communications (now Microsoft).
                         The team I was involved with was tasked with developing a prototype of a full-stack React.js web application from start to 
@@ -55,8 +55,8 @@ import ContactFooter from '../components/ContactFooter.vue';
                         In addition to industry projects, I also had the opportunity to contribute to projects at my alma mater. After graduation, 
                         I took up a courseware development role to create and refine software for the same undergraduate course I've held a teaching role in to 
                         improve the quality of educational materials used in the course for future students. This role led to the creation of the 
-                        <RouterLink to="/projects/lapsim"><span class="font-bold text-blue-800 dark:text-blue-600">LapSim</span></RouterLink> project and 
-                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-blue-800 dark:text-blue-600">Jade</span></RouterLink>
+                        <RouterLink to="/projects/lapsim"><span class="font-bold text-blue-700 ">LapSim</span></RouterLink> project and 
+                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-blue-700">Jade</span></RouterLink>
                          project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs.
                     </p>
                     <br/>
@@ -65,7 +65,7 @@ import ContactFooter from '../components/ContactFooter.vue';
                     </p>
                 </div>
                 <div class="flex flex-col gap-y-3 text-lg">
-                    <h2 class="text-3xl font-bold text-blue-800 dark:text-blue-700">Personal Interests</h2>
+                    <h2 class="text-3xl font-bold text-blue-700">Personal Interests</h2>
                     <p>
                         Of course, I don't believe in the philosophy of "all work and no play" - life is all about finding balance!
                     </p>
