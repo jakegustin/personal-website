@@ -86,10 +86,6 @@ export default {
                     <ExternalLinkButton link="https://www.github.com/jakegustin/personal-website"/>
                   </div>
                   <br/>
-                  <hr class="border-black"/>
-                  <p class="pt-5 pb-5"><span class="font-bold">Fun Fact! </span>There is a small easter egg on this website.
-                    For those familiar with the Konami Code, try it out on this website!
-                  </p>
                 </div>
               </div>
               <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">

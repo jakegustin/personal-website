@@ -84,7 +84,7 @@ export default {
                     much room for improvement in the future.
                   </p>
                   <br/>
-                  <div class="flex flex-wrap items-center gap-x-10 gap-y-5 pb-5">
+                  <div class="flex flex-wrap items-center gap-x-10 gap-y-5">
                     <p class="font-bold text-2xl">Source Code: </p>
                     <ExternalLinkButton link="https://www.github.com/jakegustin/jade"/>
                   </div>
