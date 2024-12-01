@@ -12,8 +12,8 @@ import ContactFooter from '../components/ContactFooter.vue';
         -->
         <div class="w-full md:w-4/5 flex flex-col justify-center gap-y-10 pb-10">
             <div class="flex flex-col gap-y-3">
-                <h1 class="text-6xl md:text-8xl font-sans font-bold text-center">Where Is <span class="text-blue-800 dark:text-blue-700 font-extrabold">My Mind?</span></h1>
-                <h2 class="text-2xl md:text-3xl font-sans font-semibold text-center">(A little bit about me)</h2>
+                <h1 class="text-6xl md:text-8xl font-bold text-center">Where Is <span class="text-blue-800 dark:text-blue-700 font-extrabold">My Mind?</span></h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-center">(A little bit about me)</h2>
             </div>
             <div class="flex flex-col gap-y-20 ">
                 <div class="flex flex-col gap-y-3 text-lg">

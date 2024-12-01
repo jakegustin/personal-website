@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-<button @click="goToLink" id="externalLinkButton" :class="'w-'+w + ' h-'+h" class="text-xl bg-slate-800 dark:bg-slate-600 text-white rounded-2xl font-sans shadow-xl"><slot>View Repository</slot></button>
+<button @click="goToLink" id="externalLinkButton" :class="'w-'+w + ' h-'+h" class="text-xl bg-slate-800 dark:bg-slate-600 text-white rounded-2xl shadow-xl"><slot>View Repository</slot></button>
 </template>
 
 <style>

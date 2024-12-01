@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["Ubuntu Sans", "sans-serif"]
+      ubuntu: ["Ubuntu Sans", "sans-serif"],
+      sans: ["system-ui", "Roboto", "Arial"]
     },
   },
   plugins: [],

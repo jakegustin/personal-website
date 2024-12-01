@@ -34,7 +34,7 @@ export default {
         </div>
         -->
         <div class="flex flex-col justify-center gap-y-10">
-            <h1 class=" bg-[url('../src/assets/jadebannerimg.png')] bg-cover bg-center h-80 text-6xl sm:text-8xl font-sans font-bold text-center content-center text-white">Jade</h1>
+            <h1 class=" bg-[url('../src/assets/jadebannerimg.png')] bg-cover bg-center h-80 text-6xl sm:text-8xl font-bold text-center content-center text-white">Jade</h1>
             <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
               <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
