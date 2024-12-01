@@ -14,6 +14,9 @@ cp ./README.md ./dist/
 # navigate into the build output directory
 cd dist
 
+# Working around github 404 issue with vue router
+cp ./index.html ./404.html
+
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
