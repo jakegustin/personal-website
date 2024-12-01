@@ -15,13 +15,22 @@ export default {
         }
     },
     mounted() {
-        this.visibleTitle.forEach((_, index) => {
-            setTimeout(() => {this.visibleTitle[index] = true}, index * 1000)
-        });
         if (!localStorage.getItem('firstVisit')) {
             this.firstVisit = true
             localStorage.setItem('firstVisit', 'false')
         }
+
+        const interval = setInterval(() => {
+            if (localStorage.getItem('loadingComplete') === 'true') {
+                console.log("LIGHT IT UP!");
+                clearInterval(interval);
+                this.visibleTitle.forEach((_, index) => {
+                    setTimeout(() => {this.visibleTitle[index] = true}, index * 1000)
+                });
+            }
+            console.log("crap");
+        }, 100);
+
     },
     components: {
         ExternalLinkButton
@@ -62,7 +71,21 @@ export default {
             </div>
         </div>
         <div class="flex sm:scale-75">
-            <img src="/src/assets/websiteportrait.png" class="bg-blue-800 dark:bg-blue-900 border-4 border-black dark:border-slate-200 rounded-2xl overflow-hidden transition-colors duration-300 ease-in-out"/>
+            <img id="portrait" src="/src/assets/websiteportrait.png" :class="firstVisit && !visibleTitle[3] ? 'opacity-0' : 'opacity-100'" class="rounded-2xl overflow-hidden"/>
         </div>
     </div>
 </template>
+
+<style>
+#portrait {
+  transition: opacity 1000ms ease-in-out, background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+  background-color: #1e40af;
+  border-width: 4px;
+  border-color: black
+}
+
+.dark #portrait {
+  background-color: #1e3a8a;
+  border-color: #e2e8f0
+}
+</style>

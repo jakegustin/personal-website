@@ -16,6 +16,7 @@ export default {
             this.loaded = true;
             setTimeout(() => {
                 this.makeHidden = true
+                localStorage.setItem('loadingComplete', 'true');
             }, 500);
         }
     }
