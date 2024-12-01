@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 export default {
     data() {
         return {
-            isDark: localStorage.theme === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches,
+            isDark: localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches),
             menuOn: false
         }
     },
