@@ -89,8 +89,8 @@ export default {
                 </div>
               </div>
               <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">
-                <img src="/src/assets/gitlogimg.png" class="w-11/12">
-                <img src="/src/assets/npmbuildimg.png" class="w-11/12">
+                <img src="/src/assets/gitlogimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">
+                <img src="/src/assets/npmbuildimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">
               </div>
             </div>    
         </div>
