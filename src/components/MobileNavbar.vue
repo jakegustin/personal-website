@@ -43,7 +43,7 @@ export default {
                     <i :class="{'text-white -rotate-90': menuOn, 'text-black rotate-0': !menuOn}" class="fa-solid fa-bars text-black dark:text-white text-2xl transition-all duration-300 ease-in-out" @click="showMenu" ></i>
                 </button>
             </div>
-            <div :class="{'translate-y-full pointer-events-none': !menuOn, 'translate-y-0 pointer-events-auto': menuOn}" class="fixed top-0 left-0 w-full text-white flex flex-col justify-center items-center min-h-screen gap-y-10 text-2xl bg-blue-800 dark:bg-blue-900 transition-all duration-300 ease-in-out">
+            <div :class="{'translate-y-full pointer-events-none top-full': !menuOn, 'translate-y-0 pointer-events-auto top-0': menuOn}" class="fixed left-0 w-full text-white flex flex-col justify-center items-center min-h-screen gap-y-10 text-2xl bg-blue-800 dark:bg-blue-900 transition-all duration-300 ease-in-out">
                 <RouterLink to="/" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Home</RouterLink>
                 <RouterLink to="/about" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">About</RouterLink>
                 <RouterLink to="/projects" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Projects</RouterLink>
