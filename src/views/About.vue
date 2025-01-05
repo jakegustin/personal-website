@@ -11,11 +11,15 @@ import ContactFooter from '../components/ContactFooter.vue';
         </div>
         -->
         <div class="w-full md:w-4/5 flex flex-col justify-center gap-y-10 pb-10">
+
+            <!-- Title/Header -->
             <div class="flex flex-col gap-y-3">
                 <h1 class="text-6xl md:text-8xl font-bold text-center">Where Is <span class="text-blue-700 font-extrabold">My Mind?</span></h1>
                 <h2 class="text-2xl md:text-3xl font-semibold text-center">(A little bit about me)</h2>
             </div>
             <div class="flex flex-col gap-y-20 ">
+
+                <!-- Education Background -->
                 <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-700">Educational Background</h2>
                     <p >I first enrolled at Boston University (BU) as a Film & Television student 
@@ -43,6 +47,8 @@ import ContactFooter from '../components/ContactFooter.vue';
                         plan on having this be the end of my academic journey. I aim to be part of a Master's of Computer Science program in the near future.
                     </p>
                 </div>
+
+                <!-- Professional Background -->
                 <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-700">Professional Background</h2>
                     <p >
@@ -66,6 +72,8 @@ import ContactFooter from '../components/ContactFooter.vue';
                         While my career as a professional has only just begun, I'm always looking forward to my <span class="font-bold">next big opportunity.</span>
                     </p>
                 </div>
+
+                <!-- Personal Interests -->
                 <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-700">Personal Interests</h2>
                     <p>

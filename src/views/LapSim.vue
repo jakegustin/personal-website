@@ -1,3 +1,5 @@
+<!-- LapSim Project Details Page -->
+
 <script>
 import { RouterLink } from 'vue-router';
 import ContactFooter from '../components/ContactFooter.vue';
@@ -23,21 +25,22 @@ export default {
 
 <template>
     <div class="flex flex-row justify-center lg:gap-x-24 pb-16">
-        <!--
-        <div class="place-content-start" id="pfp">
-            <img src="../assets/testImage.png" class="min-w-96 pb-10"/>
-        </div>
-        -->
         <div class="flex flex-col justify-center gap-y-10">
+
+            <!-- Header Text and Image -->
             <h1 class=" bg-[url('../src/assets/lapsimheader.png')] bg-cover bg-center h-80 text-6xl sm:text-8xl font-bold text-center content-center text-white">LapSim</h1>
             <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
               <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
+
+                  <!-- Body Header/Intro -->
                   <h2 :class="visibleHeader[0] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">300+ Students,</h2>
                   <h2 :class="visibleHeader[1] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">7 Days,</h2>
                   <h2 :class="visibleHeader[2] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-bold transition-opacity duration-1000 ease-in-out">1 Project,</h2>
                   <h2 :class="visibleHeader[3] ? 'opacity-100' : 'opacity-0'" class="text-4xl font-extrabold transition-opacity duration-1000 ease-in-out text-blue-700">Endless Possibilities.</h2>
                   <div class="flex flex-row gap-x-10 pt-5 items-center justify-center">
+                    
+                    <!-- Languages Used Section -->
                     <h3 class="text-2xl font-bold ">Languages Used: </h3>
                     <ul class="flex flex-wrap gap-x-10 list-disc text-xl">
                       <li>C</li>
@@ -55,6 +58,8 @@ export default {
                       The answer is simple enough: <span class="font-bold">embrace the challenge!</span>
                   </p>
                   <br/>
+
+                  <!-- Core Components Section -->
                   <h3 class="text-2xl font-semibold">Core Components</h3>
                   <ul class="list-disc">
                     <li class="pb-5 text-xl font-medium">Generating Simulations
@@ -85,17 +90,23 @@ export default {
                     into the simulation should time allow.
                   </p>
                   <br/>
+
+                  <!-- Repo Link -->
                   <div class="flex flex-wrap items-center gap-x-10 gap-y-5">
                     <p class="font-bold text-2xl">Source Code: </p>
                     <button disabled='true' class="bg-slate-300 border-slate-500 border-2 rounded-2xl w-64 h-16 text-black">Available Upon Request</button>
                   </div>
                   <br/>
                   <hr class="border-black"/>
+
+                  <!-- Fun Fact Bit -->
                   <p class="pt-5 pb-5"><span class="font-bold">Fun Fact! </span>The blue car featured in the LapSim project card is 
                     the 2015 Koenigsegg Agera RS. "Agera" is the Swedish verb meaning <span class="font-bold">"to act."</span>
                   </p>
                 </div>
               </div>
+
+              <!-- Additional Images -->
               <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">
                 <img src="/src/assets/lapsimoutput2.png" class="max-w-84 sm:max-w-96">
                 <img src="/src/assets/lapsimoutput.png">

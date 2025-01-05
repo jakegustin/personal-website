@@ -1,3 +1,5 @@
+<!-- Project Overview Section of Home Page -->
+
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 </script>

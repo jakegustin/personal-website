@@ -1,3 +1,5 @@
+<!-- Introduction for Projects Overview Page -->
+
 <template>
     <div class="flex flex-row justify-center px-10 pt-16 pb-16">
         <div class="w-4/5 md:w-full flex flex-col justify-center items-center gap-y-10 pb-10">

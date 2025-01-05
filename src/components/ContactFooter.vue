@@ -1,3 +1,5 @@
+<!-- Footer of most pages with contact page link and copyright info -->
+
 <template>
 <div class="flex flex-col justify-center items-center bg-blue-800 dark:bg-blue-900 transition-colors duration-300 ease-in-out gap-y-5 pt-8 pb-3">
     <h3 class="text-3xl font-bold text-white">Want to learn more?</h3>

@@ -1,3 +1,5 @@
+<!-- 404 / Unknown Location Page -->
+
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 </script>

@@ -1,3 +1,5 @@
+<!-- Wrapper for the whole website -->
+
 <script>
 import DesktopNavbar from "./components/DesktopNavbar.vue";
 import MobileNavbar from "./components/MobileNavbar.vue";

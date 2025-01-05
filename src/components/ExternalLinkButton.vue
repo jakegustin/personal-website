@@ -1,16 +1,18 @@
+<!-- Generic Button Used to Access External Resources -->
+
 <script>
 
 export default {
   props: {
-    link: {
+    link: { // Desired link. Go to 404 page if no input provided.
       type: String,
       default: "/Unknown"
     },
-    w: {
+    w: { // Button width
       type: String,
       default: '60'
     },
-    h: {
+    h: { // Button height
       type: String,
       default: '16'
     }

@@ -1,3 +1,5 @@
+<!-- Home Page Wrapper -->
+
 <script setup>
 import Hero from "../components/Home/Hero.vue"
 import ProjectOverview from "../components/Home/ProjectOverview.vue";

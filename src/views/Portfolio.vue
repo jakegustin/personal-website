@@ -1,3 +1,5 @@
+<!-- Portfolio Website Details Page -->
+
 <script>
 import { RouterLink } from 'vue-router';
 import ContactFooter from '../components/ContactFooter.vue';
@@ -23,18 +25,19 @@ export default {
 
 <template>
     <div class="flex flex-row justify-center lg:gap-x-24 pb-16">
-        <!--
-        <div class="place-content-start" id="pfp">
-            <img src="../assets/testImage.png" class="min-w-96 pb-10"/>
-        </div>
-        -->
         <div class="flex flex-col justify-center gap-y-10">
+
+            <!-- Header Text and Image -->
             <h1 class=" bg-[url('../src/assets/portfoliobanner.png')] bg-cover bg-center h-80 text-6xl sm:text-8xl font-bold text-center content-center text-white">Portfolio</h1>
             <div class="flex flex-col lg:flex-row gap-x-5 lg:px-24">
               <div class="flex flex-col gap-y-20 w-full lg:w-4/5 px-14 lg:px-10">
                 <div class="flex flex-col gap-y-3 text-lg">
+
+                  <!-- Body Header/Intro -->
                   <h2 class="text-4xl font-bold">Diving Into The <span :class="visibleHeader ? 'opacity-100' : 'opacity-0'" class="transition-opacity duration-1000 ease-in-out text-blue-700 font-extrabold">Unknown.</span></h2>
                   <div class="flex flex-row gap-x-10 pt-5 items-center justify-center">
+                    
+                    <!-- Languages Used Section -->
                     <h3 class="text-2xl font-bold ">Languages Used: </h3>
                     <ul class="flex flex-wrap gap-x-10 list-disc text-xl">
                       <li>Javascript</li>
@@ -54,6 +57,8 @@ export default {
                       quality work I can provide.
                   </p>
                   <br/>
+
+                  <!-- Tools and Frameworks Section -->
                   <h3 class="text-2xl font-semibold">Tools and Frameworks</h3>
                   <ul class="list-disc">
                     <li class="pb-5 text-xl font-medium">Vite.js
@@ -81,6 +86,8 @@ export default {
                     new frameworks and technologies here. Be sure to check back on occasion for any updates!
                   </p>
                   <br/>
+
+                  <!-- Repo Link -->
                   <div class="flex flex-wrap items-center gap-x-10 gap-y-5">
                     <p class="font-bold text-2xl">Source Code: </p>
                     <ExternalLinkButton link="https://www.github.com/jakegustin/personal-website"/>
@@ -88,6 +95,8 @@ export default {
                   <br/>
                 </div>
               </div>
+
+              <!-- Additional Images -->
               <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">
                 <img src="/src/assets/gitlogimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">
                 <img src="/src/assets/npmbuildimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">

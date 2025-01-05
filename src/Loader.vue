@@ -1,3 +1,5 @@
+<!-- Loading Page -->
+
 <script>
 export default {
     mounted() {

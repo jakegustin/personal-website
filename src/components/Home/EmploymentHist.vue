@@ -1,3 +1,5 @@
+<!-- Employment History Component of Home Page -->
+
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 </script>
