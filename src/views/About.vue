@@ -20,7 +20,7 @@ import ContactFooter from '../components/ContactFooter.vue';
                     <h2 class="text-3xl font-bold text-blue-700">Educational Background</h2>
                     <p >I first enrolled at Boston University (BU) as a Film & Television student 
                         with the aim of being involved in film production after graduation. I took a variety of classes within the department, 
-                        with topics ranging from screenwriting, film studies, and even TV studio production. I was also selected to be a 
+                        with topics ranging from screenwriting, film studies, and even TV studio production. I was even selected to be a 
                         camera operator for the pilot of <i>Art House</i>, BU's cross-college sitcom project.
                     </p>
                     <br/>
@@ -31,8 +31,10 @@ import ContactFooter from '../components/ContactFooter.vue';
                         It didn't take long for me to want to push my limits and add a computer science major to my program as I continued to perform well in 
                         upper-level classes from both areas of study. I've been able to contribute in a teaching capacity for an undergraduate systems 
                         course for two years, serving in a leading role as a teaching assistant for one year, to support other future leaders 
-                        who were just starting their journey. In time, I discovered my passion for computer science - working with distributed
-                        and cloud systems. I've had the opportunity to further explore this interest as a research assistant, 
+                        who were just starting their journey. In time, I discovered my passion within computer science - working with distributed
+                        and cloud systems. After all, the film production process is effectively the same as a large distributed system at a high level,
+                        and I've always seeked to optimize efficiency in both with regards to time and energy usage in my work.
+                        I've also had the opportunity to further explore this interest as a research assistant, 
                         conducting experiments to optimize energy consumption in distributed computing workloads, particularly with Apache Flink.
                     </p>
                     <br/>
@@ -45,9 +47,9 @@ import ContactFooter from '../components/ContactFooter.vue';
                     <h2 class="text-3xl font-bold text-blue-700">Professional Background</h2>
                     <p >
                         My first professional experience was as a software engineering intern at Nuance Communications (now Microsoft).
-                        The team I was involved with was tasked with developing a prototype of a full-stack React.js web application from start to 
-                        finish that would streamline the deployment of cloud resources for end users in the healthcare industry. While I contributed to 
-                        many aspects of the project, my focus was handling infrastructure deployment, leveraging Infrastructure-as-Code technologies, such 
+                        The research and development team I was involved with was tasked with developing a prototype of a full-stack React.js web application from start to 
+                        finish within the two month internship duration to streamline the deployment of cloud resources for end users in the healthcare industry. While I contributed to 
+                        many aspects of the project, my aim was to focus on handling infrastructure deployment, leveraging Infrastructure-as-Code technologies, such 
                         as Terraform, to adjust cloud resources with code along with CI/CD pipelines to automate the test and build processes for the application.
                     </p>
                     <br/>
@@ -55,9 +57,9 @@ import ContactFooter from '../components/ContactFooter.vue';
                         In addition to industry projects, I also had the opportunity to contribute to projects at my alma mater. After graduation, 
                         I took up a courseware development role to create and refine software for the same undergraduate course I've held a teaching role in to 
                         improve the quality of educational materials used in the course for future students. This role led to the creation of the 
-                        <RouterLink to="/projects/lapsim"><span class="font-bold text-blue-700 ">LapSim</span></RouterLink> project and 
-                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-blue-700">Jade</span></RouterLink>
-                         project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs.
+                        <RouterLink to="/projects/lapsim"><span class="font-bold text-cyan-400 hover:underline">LapSim</span></RouterLink> project and 
+                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-cyan-400 hover:underline">Jade</span></RouterLink>
+                         project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs and circuitry.
                     </p>
                     <br/>
                     <p>

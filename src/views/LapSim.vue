@@ -61,7 +61,7 @@ export default {
                       <p class="text-lg font-normal">
                         Written in the C language, this "client" program simulates data for 24 cars along a circuit of varying 
                         corners and straights. Various metrics often found in real-world motorsports are simulated in this program, including lap times,
-                        sector times, fuel usage, tire wear, and engine mode. Pit stops, dynamic weather, and vehicle reliability add additional complexity into the simulation,
+                        sector times, fuel usage, tire wear, and engine mode. Pit stops, dynamic weather, and vehicle reliability add additional complexity into the simulation.
                         Randomness ensures a unique result every time, with the option to use randomization seeds for consistency.
                       </p>
                     </li>

@@ -49,7 +49,7 @@ export default {
                   </p>
                   <br/>
                   <p>
-                      This website serves as an enhanced version of my resume, highlighting my creative and technical abilities that I have developed from my 
+                      This static website serves as an enhanced version of my resume, highlighting my creative and technical abilities that I have developed from my 
                       unique background in one interactive experience. For any organizations who are hiring, consider this to be a sample of the  
                       quality work I can provide.
                   </p>
@@ -70,7 +70,7 @@ export default {
                     </li>
                     <li class="pb-5 text-xl font-medium">Tailwind CSS
                       <p class="text-lg font-normal">
-                        Styling was always most daunting part of web development. Using Tailwind CSS here eased this part of the development process significantly, 
+                        Styling was always most daunting part of web development for me in the past. Using Tailwind CSS here eased this part of the development process significantly, 
                         leveraging the class attribute of standard HTML elements to adjust those elements individually rather than using a separate CSS stylesheet.
                       </p>
                     </li>

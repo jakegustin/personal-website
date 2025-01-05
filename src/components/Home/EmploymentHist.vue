@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { RouterLink } from 'vue-router';
+</script>
+
 <template>
     <div class="bg-blue-800 dark:bg-blue-900 text-slate-100 py-16 border-black border-y-4 transition-colors duration-300 ease-in-out">
         <h2 class="flex text-4xl font-bold place-content-center text-center py-5 px-5">I've Been Employed at These Organizations</h2>
@@ -13,7 +17,7 @@
                 </li>
                 <li class="text-2xl md:text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-solid fa-question text-5xl w-24 text-center  flex-shrink-0"></i>
-                    <span class="text-left pl-5">Hiring? Your organization could be <span class="text-teal-400 font-extrabold">next!</span></span>
+                    <span class="text-left pl-5">Hiring? Your organization could be <RouterLink to="/contact" class="hover:underline text-teal-400 font-extrabold">next!</RouterLink></span>
                 </li>
             </ul>
         </div>

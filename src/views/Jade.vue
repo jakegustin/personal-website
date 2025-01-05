@@ -50,7 +50,7 @@ export default {
                   <p class="pt-5">
                       With processor architecture being a new addition to the core undergraduate systems course at my alma mater, there were many aspects of
                       the course that needed to be updated and refined, including the lecture content and the assigned problem sets. The Jade schematic simulation
-                      tool was a core component of this addition, but revisions were necessary to incorporate it into the existing course structure.
+                      software, an open-source educational tool originally developed by MIT, was a core component of this addition. However, revisions were necessary to incorporate it into the existing course structure.
                   </p>
                   <br/>
                   <h3 class="text-2xl font-semibold">Key Contributions</h3>
@@ -77,6 +77,7 @@ export default {
                     <li>Autosave Functionality</li>
                     <li>Component Isolation/Merging</li>
                     <li>Improved Error Checking</li>
+                    <li>A lot more <a class="text-cyan-400 hover:underline" href="https://github.com/jakegustin/jade/blob/master/HOWTO.md" target="_blank">documentation</a></li>
                   </ul>
                   <br/>
                   <p>

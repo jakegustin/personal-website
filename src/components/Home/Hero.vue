@@ -22,13 +22,11 @@ export default {
 
         const interval = setInterval(() => {
             if (localStorage.getItem('loadingComplete') === 'true') {
-                console.log("LIGHT IT UP!");
                 clearInterval(interval);
                 this.visibleTitle.forEach((_, index) => {
                     setTimeout(() => {this.visibleTitle[index] = true}, index * 1000)
                 });
             }
-            console.log("crap");
         }, 100);
 
     },
