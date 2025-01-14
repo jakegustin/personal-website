@@ -67,6 +67,10 @@ import ContactFooter from '../components/ContactFooter.vue';
                         new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-cyan-400 hover:underline">Jade</span></RouterLink>
                          project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs and circuitry.
                     </p>
+                    <p>
+                        Right now, I work as an individual contributor at DataAnnotation, a startup that specializes in data labeling services for machine learning models. Much of my current work
+                        involves evaluating and improving upon the quality of code utilized in AI and machine learning models deployed for a variety of use cases.
+                    </p>
                     <br/>
                     <p>
                         While my career as a professional has only just begun, I'm always looking forward to my <span class="font-bold">next big opportunity.</span>
