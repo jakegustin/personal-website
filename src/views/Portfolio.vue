@@ -53,8 +53,7 @@ export default {
                   <br/>
                   <p>
                       This static website serves as an enhanced version of my resume, highlighting my creative and technical abilities that I have developed from my 
-                      unique background in one interactive experience. For any organizations who are hiring, consider this to be a sample of the  
-                      quality work I can provide.
+                      unique background in one interactive experience. More projects and experiences will be added to this website as I continue to grow and learn.
                   </p>
                   <br/>
 
