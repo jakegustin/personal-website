@@ -67,6 +67,7 @@ import ContactFooter from '../components/ContactFooter.vue';
                         new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-cyan-400 hover:underline">Jade</span></RouterLink>
                          project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs and circuitry.
                     </p>
+                    <br/>
                     <p>
                         Right now, I work as an individual contractor for a variety of clients, using my ever-growing skillset to support their projects, including those focused on refining AI models for a variety of use cases.
                     </p>
