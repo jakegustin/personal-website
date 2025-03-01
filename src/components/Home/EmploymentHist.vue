@@ -10,10 +10,6 @@ import { RouterLink } from 'vue-router';
         <div class="flex justify-center pb-5 rounded-2xl">
             <ul class="list-none flex flex-col px-5 items-center gap-y-3">
                 <li class="text-2xl md:text-3xl mb-5 flex flex-row items-center w-full">
-                    <i class="fa-solid fa-code text-5xl w-24 text-center flex-shrink-0"></i>
-                    <span class="text-left pl-5">DataAnnotation Tech</span>
-                </li>
-                <li class="text-2xl md:text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-solid fa-graduation-cap text-5xl w-24 text-center flex-shrink-0"></i>
                     <span class="text-left pl-5">Boston University</span>
                 </li>
