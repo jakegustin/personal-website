@@ -66,7 +66,7 @@ export default {
 
             <!-- Intro Paragraph & Resume Button -->
             <div :class="firstVisit && !visibleTitle[3] ? 'opacity-0' : 'opacity-100'" class="flex flex-col items-center gap-y-10 transition-opacity duration-1000 ease-in-out">
-                <p class="text-xl max-w-prose">I am a recent graduate of Boston University's Dual Degree program, majoring in Computer Science along with Film & Television. I've leveraged my unique skillset to develop a variety of high quality software products, ranging from interactive user experiences to efficient, low-level systems code. I am currently seeking admission into a Master's of Computer Science program for the upcoming 2025-2026 academic year.</p>
+                <p class="text-xl max-w-prose">I am an incoming student at Georgia Tech, pursuing a Master of Science in Computer Science with a concentration of computing systems. I am a recent graduate of Boston University's Dual Degree program, majoring in Computer Science along with Film & Television. I've leveraged my unique skillset to develop a variety of high quality software products, ranging from interactive user experiences to efficient, low-level systems code. I am currently seeking admission into a Master's of Computer Science program for the upcoming 2025-2026 academic year.</p>
                 <div class="w-100">
                     <ExternalLinkButton :disabled="firstVisit && !visibleTitle[3]" link='/Jake Gustin - Resume - CS.pdf' h="20">See My Resume</ExternalLinkButton>         
                 </div>

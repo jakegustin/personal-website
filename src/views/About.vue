@@ -43,8 +43,8 @@ import ContactFooter from '../components/ContactFooter.vue';
                     </p>
                     <br/>
                     <p>
-                        I graduated as a dual Bachelor's degree recipient in 2024: one in Computer Science, and one in Film & Television, though I don't 
-                        plan on having this be the end of my academic journey. I aim to be part of a Master's of Computer Science program in the near future.
+                        I graduated as a dual Bachelor's degree recipient in 2024: one in Computer Science, and one in Film & Television. Starting in Fall 2025, 
+                        I will be pursuing a Master's of Science in Computer Science at Georgia Tech, with a concentration in Computing Systems to dive deeper into my interests in distributed systems and cloud computing.
                     </p>
                 </div>
 
