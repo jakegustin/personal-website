@@ -69,7 +69,7 @@ import ContactFooter from '../components/ContactFooter.vue';
                     </p>
                     <br/>
                     <p>
-                        Right now, I work as an individual contractor for a variety of clients, using my ever-growing skillset to support their projects, including those focused on refining AI models for a variety of use cases.
+                        I also have experience as an individual contractor for various clients, using my ever-growing skillset to support their projects, including those focused on refining AI models for a variety of use cases, ranging from web development tasks to agentic AI.
                     </p>
                     <br/>
                     <p>
