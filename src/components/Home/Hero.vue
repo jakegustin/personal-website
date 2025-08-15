@@ -14,7 +14,7 @@ export default {
     methods: {
         // Open Resume in new tab
         openResume() {
-            const pdfUrl = '/Jake Gustin - Resume - CS.pdf';
+            const pdfUrl = '/Jake Gustin - Resume - CS (General).pdf';
             window.open(pdfUrl, '_blank')
         }
     },
@@ -68,7 +68,7 @@ export default {
             <div :class="firstVisit && !visibleTitle[3] ? 'opacity-0' : 'opacity-100'" class="flex flex-col items-center gap-y-10 transition-opacity duration-1000 ease-in-out">
                 <p class="text-xl max-w-prose">I am a student at Georgia Tech, pursuing a Master of Science in Computer Science with a concentration of computing systems, with additional experience in industry and academia in various capacities.</p>
                 <div class="w-100">
-                    <ExternalLinkButton :disabled="firstVisit && !visibleTitle[3]" link='/Jake Gustin - Resume - CS.pdf' h="20">See My Resume</ExternalLinkButton>         
+                    <ExternalLinkButton :disabled="firstVisit && !visibleTitle[3]" link='/Jake Gustin - Resume - CS (General).pdf' h="20">See My Resume</ExternalLinkButton>         
                 </div>
             </div>
         </div>

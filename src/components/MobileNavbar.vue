@@ -48,7 +48,7 @@ export default {
                 <RouterLink to="/" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Home</RouterLink>
                 <RouterLink to="/about" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">About</RouterLink>
                 <RouterLink to="/projects" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Projects</RouterLink>
-                <a href="/Jake Gustin - Resume - CS.pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Resume</a>
+                <a href="/Jake Gustin - Resume - CS (General).pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Resume</a>
                 <RouterLink to="/contact" class="hover:text-teal-500 transition-colors duration-200 ease-in-out" @click="showMenu">Contact</RouterLink>
                 
                 <!-- Light/Dark Mode Button -->

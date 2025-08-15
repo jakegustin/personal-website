@@ -51,7 +51,7 @@ export default {
                 </div>
             </div>
             
-            <a href="/Jake Gustin - Resume - CS.pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Resume</a>
+            <a href="/Jake Gustin - Resume - CS (General).pdf" target="_blank" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Resume</a>
             <RouterLink to="/contact" class="hover:text-teal-500 transition-colors duration-200 ease-in-out">Contact</RouterLink>
 
             <!-- Light/Dark Mode Button -->
