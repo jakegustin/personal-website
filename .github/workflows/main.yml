@@ -37,4 +37,5 @@ jobs:
           external_repository: jakegustin/jakegustin.github.io
           user_name: Jake Gustin
           user_email: jakegust2020@gmail.com
-          commit_message: Website update via GitHub Actions
+          commit_message: Update via GH Actions | 
+          force_orphan: true
