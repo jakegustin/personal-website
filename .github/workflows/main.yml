@@ -29,7 +29,7 @@ jobs:
           cp ./dist/index.html ./dist/404.html
           
       - name: Deploy to Pages repo
-        uses: peaceiris/actions-gh-pages@v3.1.12
+        uses: peaceiris/actions-github-pages@v3.1.12
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./dist
