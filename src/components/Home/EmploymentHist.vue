@@ -15,7 +15,7 @@ import { RouterLink } from 'vue-router';
                 </li>
                 <li class="text-2xl md:text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-brands fa-microsoft text-5xl w-24 text-center  flex-shrink-0"></i>
-                    <span class="text-left pl-5">Microsoft (formerly Nuance Communications)</span>
+                    <span class="text-left pl-5">Nuance Communications (acquired by Microsoft)</span>
                 </li>
                 <li class="text-2xl md:text-3xl mb-5 flex flex-row items-center w-full">
                     <i class="fa-solid fa-question text-5xl w-24 text-center  flex-shrink-0"></i>

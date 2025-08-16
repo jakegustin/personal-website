@@ -6,6 +6,6 @@
     <RouterLink to="/contact">
         <button class="w-60 h-20 bg-gray-800 text-white text-xl rounded-2xl hover:scale-110 transition-transform duration-100 shadow-xl">Reach Out!</button>
     </RouterLink>
-    <p class="text-xs">&copy 2025 Jake Gustin. All Rights Reserved.</p>
+    <p class="text-xs text-white">&copy 2025 Jake Gustin. All Rights Reserved.</p>
 </div>
 </template>
