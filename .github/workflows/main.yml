@@ -31,7 +31,7 @@ jobs:
       - name: Deploy to Pages repo
         uses: peaceiris/actions-github-pages@v3.1.12
         with:
-          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_PAT }}
           publish_dir: ./dist
           publish_branch: main
           external_repository: jakegustin/jakegustin.github.io
