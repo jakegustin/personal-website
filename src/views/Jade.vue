@@ -99,6 +99,13 @@ export default {
                     <ExternalLinkButton link="https://www.github.com/jakegustin/jade"/>
                   </div>
                   <br/>
+                  <hr class="border-black"/>
+
+                  <!-- Fun Fact Bit -->
+                  <p class="pt-5 pb-5"><span class="font-bold">Fun Fact! </span>The CPU featured in the Jade project card is 
+                    the Intel Pentium G620T, from the same brand line as the very first CPU I used in a custom PC: the Pentium G4560.
+                    I also keep a (non-functional) CPU on my keychain.
+                  </p>
                 </div>
               </div>
 

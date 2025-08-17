@@ -63,13 +63,13 @@ import ContactFooter from '../components/ContactFooter.vue';
                         In addition to industry projects, I also had the opportunity to contribute to projects at my alma mater. After graduation, 
                         I took up a courseware development role to create and refine software for the same undergraduate course I've held a teaching role in to 
                         improve the quality of educational materials used in the course for future students. This role led to the creation of the 
-                        <RouterLink to="/projects/lapsim"><span class="font-bold text-cyan-400 hover:underline">LapSim</span></RouterLink> project and 
-                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-cyan-400 hover:underline">Jade</span></RouterLink>
+                        <RouterLink to="/projects/lapsim"><span class="font-bold text-cyan-500 dark:text-cyan-400 hover:underline">LapSim</span></RouterLink> project and 
+                        new contributions to the <RouterLink to="/projects/jade"><span class="font-bold text-cyan-500 dark:text-cyan-400 hover:underline">Jade</span></RouterLink>
                          project, allowing students to apply their theoretical knowledge of the C language and CPU architecture respectively to creating functional programs and circuitry.
                     </p>
                     <br/>
                     <p>
-                        I also have experience as an individual contractor for various clients, using my ever-growing skillset to support their projects, including those focused on refining AI models for a variety of use cases, ranging from web development tasks to agentic AI.
+                        I also have experience as an individual contractor for various clients, using my ever-growing skillset to support their projects. My focus was on refining AI models for a variety of use cases ranging from web development tasks to agentic AI.
                     </p>
                     <br/>
                     <p>
@@ -81,7 +81,7 @@ import ContactFooter from '../components/ContactFooter.vue';
                 <div class="flex flex-col gap-y-3 text-lg">
                     <h2 class="text-3xl font-bold text-blue-700">Personal Interests</h2>
                     <p>
-                        Of course, I don't believe in the philosophy of "all work and no play" - life is all about finding balance!
+                        Of course, I don't believe in the philosophy of "all work and no play." Life is all about finding balance!
                     </p>
                     <br/>
                     <p>

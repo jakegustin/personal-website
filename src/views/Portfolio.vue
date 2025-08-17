@@ -46,13 +46,13 @@ export default {
                     </ul>
                   </div>
                   <p class="pt-5">
-                      Having spent of my time working with systems and back-end development, front-end development always seemed to be a mystery to me. Knowing that 
+                      Having spent of most my time working with systems and back-end development, front-end development always seemed to be a mystery to me. Knowing that 
                       experience is the best teacher, I decided to develop this website to learn more about modern 
                       web development technologies and procedures while starting to establish my presence in a digital world.
                   </p>
                   <br/>
                   <p>
-                      This static website serves as an enhanced version of my resume, highlighting my creative and technical abilities that I have developed from my 
+                      This static web app serves as an enhanced version of my resume, highlighting my creative and technical abilities that I have developed from my 
                       unique background in one interactive experience. More projects and experiences will be added to this website as I continue to grow and learn.
                   </p>
                   <br/>
@@ -92,12 +92,19 @@ export default {
                     <ExternalLinkButton link="https://www.github.com/jakegustin/personal-website"/>
                   </div>
                   <br/>
+                  <hr class="border-black"/>
+
+                  <!-- Fun Fact Bit -->
+                  <p class="pt-5 pb-5"><span class="font-bold">Fun Fact! </span>The keyboard featured in the Portfolio project card is 
+                    the Logitech G915, the very keyboard I used to develop much of this website!
+                  </p>
                 </div>
               </div>
 
               <!-- Additional Images -->
               <div class="flex flex-col gap-y-20 items-center w-11/12 mx-auto">
                 <img src="/src/assets/gitlogimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">
+                <img src="/src/assets/ghworkflowimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">
                 <img src="/src/assets/npmbuildimg.png" class="w-11/12 max-w-84 sm:max-w-3xl">
               </div>
             </div>    
