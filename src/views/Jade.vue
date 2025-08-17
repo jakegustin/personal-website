@@ -84,7 +84,7 @@ export default {
                     <li>Autosave Functionality</li>
                     <li>Component Isolation/Merging</li>
                     <li>Improved Error Checking</li>
-                    <li>A lot more <a class="text-cyan-400 hover:underline" href="https://github.com/jakegustin/jade/blob/master/HOWTO.md" target="_blank">documentation</a></li>
+                    <li>A lot more <a class="text-cyan-500 dark:text-cyan-400 hover:underline" href="https://github.com/jakegustin/jade/blob/master/HOWTO.md" target="_blank">documentation</a></li>
                   </ul>
                   <br/>
                   <p>
