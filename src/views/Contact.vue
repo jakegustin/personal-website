@@ -16,7 +16,7 @@ import { RouterLink } from 'vue-router';
         <!-- Email -->
         <li class="flex flex-row items-center w-full">
             <i class="fa-solid fa-envelope text-3xl w-16 sm:text-4xl sm:w-24 text-center flex-shrink-0"></i>
-            <a href="mailto:jakegust2020@gmail.com" target="_blank" class="text-teal-500 hover:underline text-left">jakegust2020@gmail.com</a>
+            <a href="mailto:jakegustin@proton.me" target="_blank" class="text-teal-500 hover:underline text-left">jakegustin@proton.me</a>
         </li>
 
         <!-- GitHub -->
